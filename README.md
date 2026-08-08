@@ -105,14 +105,12 @@ Raw CSV Dataset
       ↓
       
    TRANSFORM
- 
+   
  Remove Duplicates
  
       ↓
-      
-    
-    LOAD
-     
+   LOAD
+   
   PostgreSQL
   
       ↓  
