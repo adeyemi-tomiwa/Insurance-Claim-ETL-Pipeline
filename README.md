@@ -110,12 +110,12 @@ Raw CSV Dataset
  
       ↓
       
+    
     LOAD
      
   PostgreSQL
   
-      ↓
-      
+      ↓  
  Insurance_Claim
  
 The complete ETL workflow was executed by calling the three functions sequentially:
