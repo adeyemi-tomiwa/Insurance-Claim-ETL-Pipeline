@@ -11,25 +11,25 @@ The dataset contains 33 columns, including information such as vehicle make, acc
 Vehicle Insurance Dataset
 
           ↓
-       Python
+   Python
        
    Extract & Transform
    
           ↓
           
-      PostgreSQL
+   PostgreSQL
       
           ↓
           
-         SQL
+   SQL
          
-       Analysis
+   Analysis
        
           ↓
           
-       Grafana
+  Grafana
        
-     Visualization
+  Visualization
      
     ## Project Objectives
     
@@ -100,7 +100,7 @@ Raw CSV Dataset
       
    EXTRACT
    
-    Pandas
+   Pandas
     
       ↓
       
