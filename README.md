@@ -7,20 +7,33 @@ The analysis focuses on understanding claim volumes, fraudulent claims, fraud ra
 
 The dataset contains 33 columns, including information such as vehicle make, accident area, policy type, vehicle category, policyholder age, gender, marital status, claim information, and fraud status.
 ## Project Workflow
+
 Vehicle Insurance Dataset
+
           ↓
        Python
+       
    Extract & Transform
+   
           ↓
+          
       PostgreSQL
+      
           ↓
+          
          SQL
+         
        Analysis
+       
           ↓
+          
        Grafana
+       
      Visualization
+     
     ## Project Objectives
-    The main objectives of this project were to:
+    
+The main objectives of this project were to:
 
 Analyze the overall volume of vehicle insurance claims.
 
@@ -80,20 +93,32 @@ def load(df):
    The records were inserted into the Insurance_Claim table, and the transaction was committed after the loading process.
 
 ## Complete ETL Workflow
+
 Raw CSV Dataset
+
       ↓
+      
    EXTRACT
+   
     Pandas
+    
       ↓
+      
    TRANSFORM
+   
  Remove Duplicates
+ 
       ↓
+      
      LOAD
+     
   PostgreSQL
+  
       ↓
+      
  Insurance_Claim
  
- The complete ETL workflow was executed by calling the three functions sequentially:
+The complete ETL workflow was executed by calling the three functions sequentially:
  raw_data = extract()
 clean_data = transform(raw_data)
 load(clean_data)
