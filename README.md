@@ -137,29 +137,32 @@ load(clean_data)
   PostgreSQL — Data storage
 # Dashboard
 <img width="779" height="360" alt="Insurance Claim Dashboard" src="https://github.com/user-attachments/assets/b17d5f45-81d7-44fa-9925-d192b0a416ad" />
+
 ## Key Insights
-The analysis and Grafana dashboard provided several insights into the vehicle insurance claims dataset:
 
-The dataset contains 15,420 total claims, of which 14,497 were classified as valid and 923 as fraudulent.
+          The analysis and Grafana dashboard provided several insights into the vehicle insurance claims dataset:
+          
+          The dataset contains 15,420 total claims, of which 14,497 were classified as valid and 923 as fraudulent.
+          
+          The overall fraud rate was 5.99%.
+          
+          Fraudulent claims were analyzed across gender, marital status, and policyholder age groups to identify differences in fraud occurrence.
+          
+          Claims were also compared across vehicle categories and vehicle makes, allowing differences between valid and fraudulent claims to be observed.
+          
+          The analysis examined claims by accident area, providing a comparison of valid and fraudulent claims between different accident locations.
+          
+          Claim patterns were analyzed across months and years to understand how claim activity varied over time.
+          
+          Claims were also analyzed by policy type and fault, providing additional context around the characteristics of reported claims.
 
-The overall fraud rate was 5.99%.
-
-Fraudulent claims were analyzed across gender, marital status, and policyholder age groups to identify differences in fraud occurrence.
-
-Claims were also compared across vehicle categories and vehicle makes, allowing differences between valid and fraudulent claims to be observed.
-
-The analysis examined claims by accident area, providing a comparison of valid and fraudulent claims between different accident locations.
-
-Claim patterns were analyzed across months and years to understand how claim activity varied over time.
-
-Claims were also analyzed by policy type and fault, providing additional context around the characteristics of reported claims.
 ## Recommendations
 
-Based on the analysis, the following actions could support further investigation and monitoring of insurance claims:
-
-Monitor fraudulent claim patterns using demographic, vehicle, policy, and accident-related attributes identified in the analysis.
-
-Prioritize further investigation of unusual claims rather than treating any single demographic or vehicle characteristic as evidence of fraud.
-
-Continue monitoring fraud trends over time using the dashboard to identify changes in claim and fraud patterns.
+          Based on the analysis, the following actions could support further investigation and monitoring of insurance claims:
+          
+          Monitor fraudulent claim patterns using demographic, vehicle, policy, and accident-related attributes identified in the analysis.
+          
+          Prioritize further investigation of unusual claims rather than treating any single demographic or vehicle characteristic as evidence of fraud.
+          
+          Continue monitoring fraud trends over time using the dashboard to identify changes in claim and fraud patterns.
 
