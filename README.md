@@ -66,30 +66,40 @@ The cleaned dataset was then loaded into a PostgreSQL database named Insurance C
 ## ETL Process
 The ETL pipeline was developed in Python and consists of three main stages: Extract, Transform, and Load.
 1. Extract
+
 The dataset was extracted from the CSV file using Pandas' read_csv() function.
+
 def extract():
+
     Data = pd.read_csv(
         r"C:\Users\hp\Desktop\Datasets\Vehicle insurance claim\Vehicle Insurance Case Fraud.csv"
     )
     return Data
-2. Transform
+3. Transform
+
 The transformation stage focused on removing duplicate records from the dataset.
+
 def load(df):
+
     connection = psycopg2.connect(
         host="localhost",
         dbname="Insurance Claim",
         user="postgres",
         password="1234"
     )
-3. Load
+5. Load
+
 The transformed data was loaded into a PostgreSQL database using
+
 def load(df):
+
     connection = psycopg2.connect(
         host="localhost",
         dbname="Insurance Claim",
         user="postgres",
         password="1234"
     )
+    
    The records were inserted into the Insurance_Claim table, and the transaction was committed after the loading process.
 
 ## Complete ETL Workflow
